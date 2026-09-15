@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - Tables</title>
+</head>
+
+<body>
+    <h1>student records</h1>
+    <table border="1">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>20</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>22</td>
+            <td>Female</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>student marks</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>English</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>85</td>
+                <td>90</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>75</td>
+                <td>80</td>
+                <td>70</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total: 160</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h1>column span example</h1>
+    <table border="1">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th colspan="2">Marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>85</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>75</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h1>row span example</h1>
+    <table border="1">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th rowspan="2">Marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>75</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>column span and row span combined</h1>
+    <table border="1">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th colspan="2">Marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td rowspan="2">85</td>
+            <td rowspan="2">90</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+        </tr>
+    </table>
+</body>
+
+</html>
