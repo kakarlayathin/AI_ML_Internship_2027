@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 - Radio, Checkbox, Select, Textarea</title>
+</head>
+
+<body>
+    <h1>Radio, Checkbox, Select, Textarea</h1>
+    <form action="/submit" method="post">
+
+        <h2>Radio Buttons</h2>
+        <label>
+            <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"> Female
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other"> Other
+        </label>
+
+        <h2>Checkboxes</h2>
+        <label>
+            <input type="checkbox" name="interests" value="sports"> Sports
+        </label>
+        <label>
+            <input type="checkbox" name="interests" value="music"> Music
+        </label>
+        <label>
+            <input type="checkbox" name="interests" value="travel"> Travel
+        </label>
+
+        <h2>Select Your Country</h2>
+        <select name="country">
+            <option value="">Select a country</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+        </select>
+
+        <h2>Textarea</h2>
+        <textarea name="message" placeholder="Enter your message"></textarea>
+
+        <!=====multiple select=====>
+            <h2>Multiple Select</h2>
+            <select name="fruits" multiple size="4">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+                <option value="grape">Grape</option>
+            </select>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+
+    </form>
+</body>
+
+</html>
