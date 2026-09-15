@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Day 9 - div, span, id, class
+    </title>
+    <style>
+        .box {
+            background-color: black;
+            height: auto;
+            width: auto;
+            border: 2px solid white;
+        }
+
+        .highlight {
+            background-color: blue;
+            font-weight: bold;
+
+        }
+
+        .blue text {
+            color: blue
+        }
+
+        .red text {
+            color: beige
+        }
+
+        .card {
+            background-color: aqua;
+            border: 8px;
+            padding: 20px;
+        }
+
+        #main-title {
+            color: darkred;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        #special-paragraphs {
+            color: brown;
+            font-style: italic;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="main-title">Day 9-div and span</h1>
+    <h2>span example</h2>
+    <p>this is a normal paragraph with
+        <span class="highlight">this is highlighted text</span><br>
+        and soobr<br>
+        <span class="blue-text">with blue text</span><br>
+        <span class="red-text">and red text</span><br>
+    </p>
+    <p>
+    <h3>id example</h3>
+    <div id="special-paragraphs">this line is a special paragraph soo it look specoal</div>
+    </p>
+
+    <h2>div example</h2>
+    <div class="box">Box 1
+        <p>thisw is a div box</p>
+    </div>
+
+    <div class="box">Box 2
+        <p>this is div same box as first but it is another one. </p>
+    </div>
+
+    <h2>html card</h2>
+    <div class="card">
+        <h2>CSS course</h2>
+        <p>make ur website beautiful.</p>
+    </div>
+    <span class="special-paragraphs">price:500</span>
+
+    <h2>multiple classes</h2>
+    <span class="highlight blue-text">this line was the combination off both highlight and blue-text classes</span>
+    <h2>anchor link example</h2>
+    <p>
+        <a href="#main-title">go to the top</a>
+    </p>
+
+</body>
+
+</html>
